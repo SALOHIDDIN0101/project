@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+header {
+    background-color: white;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+nav {
+    border-bottom: 1px solid #DDDDDD;
+}
+
+
+
+.circle {
+
+    width: 17px;
+    height: 17px;
+    border: 1px solid #333333;
+    border-radius: 50%;
+
+}
+
+.oval {
+    width: 32px;
+    height: 17px;
+    border: 1px solid #333333;
+    border-radius: 11px;
+}
+
+.wrapper {
+    width: 1440px;
+    height: 80px;
+
+    width: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1140px;
+}
+
+.wrapper li {
+    list-style-type: none;
+    color: #4C5866;
+}
+
+.wrapper ul {
+    display: flex;
+    gap: 60px;
+}
+
+.logo {
+    display: flex;
+    gap: 5px;
+}
+
+.registratsiya {
+    display: flex;
+    gap: 30px;
+}
+
+.veshi {
+    padding-top: 130px;
+}
+
+.veshi h1 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    color: #4C5866;
+    padding-bottom: 30px;
+}
+
+.veshi p {
+    width: 445px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #85859B;
+    padding-bottom: 30px;
+}
+
+.btn {
+
+    width: 76px;
+    height: 23px;
+
+    width: 270px;
+    height: 70px;
+    top: 290px;
+    padding: 20px 50px 20px 50px;
+    gap: 6px;
+    border: 1px solid #7875FE;
+    color: #7875FE;
+    background-color: white;
+}
+
+.wrapper1 {
+    display: flex;
+    gap: 125px;
+    padding-top: 60px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-top: 1px solid #4C5866;
+    padding-top: 19px;
+}
+
+.rezultat {
+    display: flex;
+    gap: 30px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.card h1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+}
+
+.card p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #85859B;
+}
+
+.rasimkatta {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 90px;
+}
+
+.rasimkatta h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    color: #666666;
+    padding-bottom: 20px;
+    padding-top: 90px;
+}
+
+.rasimkatta p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    text-align: left;
+    color: #85859B;
+    padding-bottom: 60px;
+}
+
+/* ====================================================upakovka */
+.upakovka {
+    background-color: white;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.wrapper3 {
+    display: flex;
+    gap: 30px;
+}
+
+.wrapper3 img {
+    padding-bottom: 20px;
+}
+
+.wrapper3 h1 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35.16px;
+    text-align: left;
+    color: #666666;
+    padding-bottom: 8px;
+}
+
+.wrapper3 p1 {
+    width: 119px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    color: #B5B5BD;
+    padding-bottom: 8px;
+}
+
+.wrapper3 p {
+    width: 255px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    text-align: left;
+    color: #85859B;
+    padding-bottom: 8px;
+}
+
+.wrapper3 .p2 {
+
+    width: Hug (129px)px;
+    height: Hug (23px)px;
+    top: 442px;
+    gap: 5px;
+    color: #3a38da;
+}
+
+.wrapper3 .pp4 {
+    width: 255px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    text-align: left;
+}
+
+/* ==================================================logo */
+
+.logolar {
+    width: 100%;
+    height: 1005;
+    padding-top: 90px;
+}
+
+.wrapper4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper4 div {
+    width: calc(25% - 22.5px);
+    height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #c4c4c4;
+    cursor: pointer;
+}
+
+.logolar {
+    width: 100%;
+    padding-block: 90px;
+}
+
+/* =======================================================wrapper5 */
+.sketchbuk {
+    background-color: #fff;
+}
+
+.wrapper5 {
+    display: flex;
+    gap: 30px;
+    padding-block: 90px;
+}
+
+.wrapper5 h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    padding-bottom: 8px;
+    padding-top: 24px;
+}
+
+.wrapper5 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    padding-bottom: 30px;
+    color: #85859B;
+}
+
+.katta {
+    width: 350px;
+}
+
+.wrapper5 button {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+}
+
+/* ========================================================logo */
+footer {
+    padding-block: 28px;
+    background-color: #4C5866;
+    color: #fff;
+}
+
+footer .logo span {
+    border-color: #fff;
+}
+.wrapper6{
+    display: flex;
+    justify-content: space-between;
+}
+.ftr{
+    display: flex;
+    gap: 30px;
+}
+.ftr img{
+    width: 24px;
+    height: 24px;
+}
